@@ -1,0 +1,47 @@
+{
+  "name": "b2b-quote",
+  "version": "1.0.0",
+  "description": "Simple B2B System",
+  "main": "server.js",
+  "scripts": {
+    "test": "nodemon server.js",
+    "dev": "mix",
+    "watch": "mix watch",
+    "watch-poll": "mix watch -- --watch-options-poll=1000",
+    "hot": "mix watch --hot",
+    "production": "mix --production"
+  },
+  "keywords": [
+    "MySQL",
+    "ExpressJs",
+    "NodeJs",
+    "HTML",
+    "CSS"
+  ],
+  "author": "Md. Russel Hussain",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "element-plus": "^2.2.2",
+    "email-validator": "^2.0.4",
+    "express": "^4.17.3",
+    "express-fileupload": "^1.4.0",
+    "jsonwebtoken": "^8.5.1",
+    "mysql2": "^2.3.3",
+    "randomstring": "^1.2.2",
+    "sequelize": "^6.18.0",
+    "vue": "^3.2.36",
+    "vue-loading-overlay": "^5.0.3",
+    "vue-router": "^4.0.15"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15",
+    "cross-env": "^7.0.3",
+    "laravel-mix": "^6.0.43",
+    "vue-loader": "^17.0.0"
+  }
+}
